@@ -9,6 +9,12 @@ async function test(obj) {
 
 const jsonTest = [
   {
+    filename: "peebis.webp",
+    name: "peebis (yes this is definitely a cat)",
+    description: "",
+    html: "",
+  },
+  {
     filename: "F5OZU_0X0AAN0Vd (1).jpg",
     name: "I ate the alarm clock. Sleep well.",
     description: "",
@@ -89,6 +95,50 @@ const jsonTest = [
   {
     filename: "ueueue.webp",
     name: "ue ue ue (soung of crying)",
+    description: "",
+    html: "",
+  },
+  {
+    filename: "MONKA.png",
+    name: "MONKA",
+    description: "",
+    html: "",
+  },
+  {
+    filename: "roomba.gif",
+    name: "The Roomba Incident",
+    description: "",
+    html: "",
+  },
+
+  {
+    filename: "gnarp7.webp",
+    name: "Gnarp 7",
+    description: "",
+    html: "",
+  },
+  {
+    filename: "glorpShakey.gif",
+    name: "Glorp Shakey",
+    description: "",
+    html: "",
+  },
+  {
+    filename: "ragey.webp",
+    name: "Ragey",
+    description: "",
+    html: "",
+  },
+
+  {
+    filename: "chef.gif",
+    name: "Chef",
+    description: "",
+    html: "",
+  },
+  {
+    filename: "Sad Cat.webp",
+    name: "Sad Cat",
     description: "",
     html: "",
   },
