@@ -80,10 +80,20 @@ const jsonTest = [
     description: "",
     html: "",
   },
+  {
+    filename: "plink-cat-plink.gif",
+    name: "Plink",
+    description: "",
+    html: "",
+  },
+  {
+    filename: "ueueue.webp",
+    name: "ue ue ue (soung of crying)",
+    description: "",
+    html: "",
+  },
 ];
-/**
- *
- */
+
 class Sorter {
   loadCats() {
     this.cats = jsonTest;
