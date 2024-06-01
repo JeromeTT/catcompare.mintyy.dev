@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat Battle</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="sub-container">
+        <h1>Select your favourite cat!</h1>
+        <div id="page-start">
+          <div>
+            Two cats will be displayed side by side, and you will need to click
+            on your favourite. <br />
+            <br />A ranking of all the cats will be displayed afterwards!
+          </div>
+          <button id="start">Start</button>
+        </div>
+        <div id="page-quiz" style="display: none">
+          <div id="progress-bar" class="progress-bar">
+            <div id="progress-bar-inner" class="progress-bar-inner">0%</div>
+          </div>
+          <div class="selection-panel">
+            <div id="select-panel-left" class="selection-panel-sub">
+              <div id="select-panel-left--image">
+                <img
+                  src="assets/cats/001_alien_cat.jpg"
+                  class="img"
+                  alt="cat"
+                />
+              </div>
+              <p id="select-panel-left--header">This is the left cat</p>
+            </div>
+            <div id="select-panel-right" class="selection-panel-sub">
+              <div id="select-panel-right--image">
+                <img
+                  src="assets/cats/001_alien_cat.jpg"
+                  class="img"
+                  alt="cat"
+                />
+              </div>
+              <p id="select-panel-right--header">This is the right cat</p>
+            </div>
+          </div>
+        </div>
+        <div id="page-results" style="display: none">
+          <button id="button-clipboard">Copy Results to Clipboard</button>
+          <div id="page-results--inner" class="page-results-flex"></div>
+        </div>
+        <h4>
+          Uses a modified merge sort algorithm to maximise perceived randomness.
+        </h4>
+        <h4>Debug:</h4>
+        <p id="p-full">Full: []</p>
+        <p id="p-temp">Temp: []</p>
+        <p id="p-percent"></p>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
